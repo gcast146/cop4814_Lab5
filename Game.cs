@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WindowsFormsApp2
+namespace WindowsFormsApp2 //diff change
 {
-    public class Game
+    public class Game //diff change
     {
         public string Team1 = "";
         public string Team2 = "";

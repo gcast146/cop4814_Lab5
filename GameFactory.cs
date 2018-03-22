@@ -13,7 +13,7 @@ namespace WindowsFormsApp2
     {
         List<Game> GameList = new List<Game>();
         public string FilePath = @"..\..\games.xml";
-
+//change
         public void CreateGameList()
         {
             GameList.Add(new Game("Test Team One", "Test Team 2", 1, 2));
@@ -23,7 +23,7 @@ namespace WindowsFormsApp2
             GameList.Add(new Game("Rangers", "Devils", 2, 5));
             GameList.Add(new Game("Flames", "Sharks", 1, 0));
         }
-
+//change
         public Boolean SerializeGameList()
         {
             StreamWriter sw = new StreamWriter(FilePath);
@@ -32,5 +32,5 @@ namespace WindowsFormsApp2
             sw.Close();
             return true;
         }
-    }
+    }//more changes
 }
